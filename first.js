@@ -212,22 +212,60 @@
 //Use the reduce method to calculate sum of all numbers in the array.
 //Use the reduce method to calculate product of all numbers in the array.
 
-let input = prompt("Enter a number");
+// let input = prompt("Enter a number");
 
-let array = [ ];
+// let array = [ ];
 
-for(let i = 1; i<=input; i++){
-    array[i-1] = i;
-}
-console.log(array);
+// for(let i = 1; i<=input; i++){
+//     array[i-1] = i;
+// }
+// console.log(array);
 
-const sum = array.reduce(
-    (initial, end) => initial + end,
-);
-console.log("The sum of entered number is", sum);
+// const sum = array.reduce(
+//     (initial, end) => initial + end,
+// );
+// console.log("The sum of entered number is", sum);
 
-const  pdt = array.reduce(
-    (initial, end) => initial * end,
-);
+// const  pdt = array.reduce(
+//     (initial, end) => initial * end,
+// );
 
-console.log("The product of entered number is", pdt);
+// console.log("The product of entered number is", pdt);
+ 
+//             *****************************************************************************************
+
+// DOM PRACTICE 
+// title = document.getElementById("title");   //selecting id
+// console.log(title.textContent);  // printing id content
+
+// title.textContent = "Bye World"  // changing the content of selected id
+
+// var num1 = prompt("Enter the 1st number");
+// var num2 = prompt("Enter the 2nd number");
+
+// console.log(num1, "and ", num2);
+
+//************************************************************************************** */
+
+
+
+// function total( ){
+//     // event.preventDefault();
+
+//     let num1= document.getElementById("num1")   
+//     let num2= document.getElementById("num2")
+
+//     let result = document.getElementById("result")
+
+//     let val1 = Number(num1.value)
+//     let val2 = Number(num2.value)
+
+//     let total = val1 + val2
+//     result.textContent = total
+
+//     // console.log(total)
+// }
+
+
+
+
